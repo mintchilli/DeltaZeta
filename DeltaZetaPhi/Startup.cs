@@ -55,7 +55,7 @@ namespace DeltaZetaPhi
                 app.UseHsts();
             }
 
-            //app.UseHttpsRedirection();
+            app.UseHttpsRedirection();
 
 
             app.UseAuthentication();
